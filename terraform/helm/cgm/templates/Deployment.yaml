@@ -16,7 +16,9 @@ spec:
       containers:
         - name: cgm
           imagePullPolicy: Always
-          image: ghcr.io/misha999777/cgm-terraform/cgm-terraform:latest
+          image: ghcr.io/happymary16/cgm/cgm:latest
+          args:
+            - cgm-service
           ports:
             - containerPort: 8080
       imagePullSecrets:
