@@ -15,6 +15,7 @@ spec:
       serviceAccountName: cgm-sa
       containers:
         - name: cgm
+          imagePullPolicy: Always
           image: ghcr.io/happymary16/cgm/cgm:latest
           args:
             - cgm-service
