@@ -26,10 +26,11 @@ spec:
               memory: "12Gi"
             requests:
               memory: "8Gi"
+              cpu: "1"
           env:
            - name: CGM_FILE_SYSTEM
              value: azure
            - name: CGM_MODE
-             value: parallel
+             value: distributed
       imagePullSecrets:
         - name: github-secret
