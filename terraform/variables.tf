@@ -1,12 +1,12 @@
 variable "resource_group_location" {
   type        = string
-  default     = "polandcentral"
+  default     = "eastus"
   description = "Location of the resource group."
 }
 
 variable "node_type" {
   type        = string
-  default     = "Standard_E2as_v5"
+  default     = "Standard_M192is_v2"
   description = "Type of nodes in node pool."
 }
 
@@ -18,7 +18,7 @@ variable "nodes_min" {
 
 variable "nodes_max" {
   type        = string
-  default     = "5"
+  default     = "1"
   description = "Maximum amount of nodes in node pool."
 }
 
