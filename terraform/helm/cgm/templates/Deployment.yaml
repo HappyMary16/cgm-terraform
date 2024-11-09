@@ -29,6 +29,6 @@ spec:
            - name: CGM_FILE_SYSTEM
              value: azure
            - name: CGM_MODE
-             value: distributed
+             value: parallel
       imagePullSecrets:
         - name: github-secret
