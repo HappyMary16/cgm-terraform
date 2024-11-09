@@ -1,12 +1,12 @@
 variable "resource_group_location" {
   type        = string
-  default     = "centralindia"
+  default     = "CentralIndia"
   description = "Location of the resource group."
 }
 
 variable "node_type" {
   type        = string
-  default     = "Standard_D64pls_v6"
+  default     = "Standard_D64pls_v5"
   description = "Type of nodes in node pool."
 }
 
