@@ -6,7 +6,7 @@ variable "resource_group_location" {
 
 variable "node_type" {
   type        = string
-  default     = "Standard_D32pls_v5"
+  default     = "Standard_D64pls_v5"
   description = "Type of nodes in node pool."
 }
 
